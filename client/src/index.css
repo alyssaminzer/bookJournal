@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(142, 10, 10, 0.05);
+} */
+.table-striped tbody tr:nth-of-type(odd) {
+  /* background-color: rgba(227, 13, 131, 0.05); */
+  background-color: rgb(247, 239, 242);
+
+}
+
+.table tbody, .table tr {
+/* border: 2px solid rgb(255, 107, 157); */
+border: 2px solid rgb(176, 173, 173);
+}
+
+/* .info h5 {
+  text-align:justify
+} */
+
+/* .box {
+  width: 50%;
+  margin-left: 200px;
+} */
+
+.wrapper {
+  /* margin-top: 20px; */
+  /* margin-left: 135px; */
+
+  /* text-align: center;
+  border: 8px solid rgb(255, 233, 245);
+  width: 800px;
+  max-height: 600px;
+  padding: 15px;
+
+  display: flex; */
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+  /* padding: 30px; */
+}
+
+/* .button {
+  background-color: #f798d6;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none; */
+  /* display: inline-block; */
+
+
+.btn.btn-dark {
+  text-decoration: none;
+  /* background-color: #fbb9d0; */
+  background-color: #959393;
+  /* color: rgb(255, 107, 157); */
+  /* color: black; */
+  padding: 10px 25px;
+  text-align: center;
+  margin: 25px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-fields {
+  /* display: flex; */
+  margin: 20px;
+  padding: 20px;
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+}
+
+.column1 {
+  /* padding-right: 105px; */
+  /* padding-top: 30px; */
+} 
+
+.column2 {
+  /* padding-left: 105px; */
+}  
+.addbook {
+  margin-top: 30px;
+}
+
+.info {
+  margin-top: 55px;
+  /* display: inline;
+  text-align:left;
+  margin-top: 55px;
+  padding-bottom: 20px; */
+}
+
